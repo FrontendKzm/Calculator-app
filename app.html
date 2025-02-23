@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+ <div class="container">
+    <h1 class="heading">Just Calculate</h1>
+    <input id="display" value="" readonly/>
+    <br/>
+    <div id="keys">
+      
+<button onclick="appenttoDisplay(`0`)" class="num-btn">0</button>
+<button onclick="appenttoDisplay(`1`)" class="num-btn">1</button>
+<button onclick="appenttoDisplay(`2`)" class="num-btn">2</button>
+<button onclick="appenttoDisplay(`3`)" class="num-btn">3</button>
+<button onclick="appenttoDisplay(`4`)" class="num-btn">4</button>
+<button onclick="appenttoDisplay(`5`)" class="num-btn">5</button>
+<button onclick="appenttoDisplay(`6`)" class="num-btn">6</button>
+<button onclick="appenttoDisplay(`7`)" class="num-btn">7</button>
+<button onclick="appenttoDisplay(`8`)" class="num-btn">8</button>
+<button onclick="appenttoDisplay(`9`)" class="num-btn">9</button>
+
+<button onclick="appenttoDisplay(`+`)" class="operators">+</button>
+<button onclick="appenttoDisplay(`-`)" class="operators">-</button>
+<button onclick="appenttoDisplay(`/`)" class="operators">/</button>
+<button onclick="appenttoDisplay(`*`)" class="operators">*</button>
+<button onclick="calculate()" class="operators">=</button>
+<button onclick="cleardisplay()" class="operators">C</button>
+</div>
+ </div>   
+
+
+
+<script src="scripts.js"></script>
+</body>
+</html>

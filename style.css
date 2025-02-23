@@ -1,0 +1,81 @@
+
+
+
+
+body{
+ display: flex;
+ justify-content: center;   
+ background-image: url(abstract-background-with-wavy-lines.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.heading{
+  text-align: center;
+  color: orange;  
+  font-family: "Bungee Spice";
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+button{
+ width: 70px;
+ height: 70px;
+ border: none;
+ border-radius: 1.6rem;
+ background-color: grey;
+ box-shadow: 2px 2px 2px black;
+ cursor: pointer;
+ 
+ font-size: xx-large;
+ font-weight: 550;
+ margin: 2px;
+}
+button:hover{
+background-color: black;
+color: white;    
+}
+button:active{
+  background-color: rgba(31, 31, 31, 0.5);
+  color: rgba(255, 255, 255, 0.541);
+  transition: none;  
+}
+#display{
+padding: 25px;
+width: 300px;
+font-size: 15px;
+font-size: 1.5rem;
+background-color: black;
+color: orange;
+font-family: monospace;     
+border: none;  
+}
+#keys{
+    display: grid;
+    grid-template-columns:repeat(4 , 5rem) ;
+    padding: 10px;
+    width: fit-content;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    flex-direction:column;
+    font-family: monospace;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.384);
+    width: max-content;
+}
+.operators{
+background-color: orange;    
+}
+.operators:hover{
+ background-color: black;
+ color: orange;   
+}
+.operators:active{
+ background-color: rgb(109, 71, 1);  
+ transition: none;
+ color: rgba(0, 0, 0, 0.014); 
+}
