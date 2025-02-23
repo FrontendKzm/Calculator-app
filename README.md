@@ -15,7 +15,7 @@ A basic JavaScript calculator with a stylish design and functional operations.
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/kaizm51/Calculator.app.git
+   git clone  https://frontendkzm.github.io/Calculator-app/.git
    ```
 
 2. Open `index.html` in your browser to use the calculator.
@@ -31,5 +31,5 @@ Feel free to fork this repository and submit pull requests. Please ensure any ch
 
 ## Contact
 For feedback or questions:
-- GitHub: [kaizm51](https://github.com/kaizm51)
-- Email: atesoglukazm3@gmail.com
+- GitHub: [FrontendKzm](https://github.com/FrontendKzm)
+- Email: kzbwrtf@gmail.com
